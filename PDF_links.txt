@@ -2,7 +2,7 @@ function myFunction() {
   var ss=SpreadsheetApp.getActiveSpreadsheet();
   var s=ss.getActiveSheet();
   var c=s.getActiveCell();
-  var fldr=DriveApp.getFolderById("1qQSSU6c3WJDJajH04MRZLLxWIgjBzOAu");
+  var fldr=DriveApp.getFolderById("folder-id");
   var files=fldr.getFiles();
   var names=[],f,str;
   while (files.hasNext()) {

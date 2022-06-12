@@ -63,3 +63,26 @@ python send_mails.py
     -   Add the HTML content given in the `template.html` as the mail content
     -   Attach the appropriate certificate to that mail
     -   Send the mails to all the students.
+
+---
+
+### PDF_links.txt
+
+- This text file containts a google script to save share links of pdf files in a google drive to a spreadsheet
+
+#### Requirements
+
+-   1 CSV file with Names and Email Addresses
+-   1 Google drive folder of PDF files which has all the certificates in the above order.
+    i.e. The names order in the PDF should be same as that of the
+    CSV file.
+
+### Execution
+
+-  Copy the folder ID which contains the PDF files
+-   Open a new CSV file in google sheets in the same folder
+-   Paste the google scripts in `Exections -> AppScript`
+-   Run the function
+-   Links for PDF files with view permission will be generated in order in the google sheet.
+ 
+
